@@ -1,0 +1,52 @@
+target/
+node_modules/
+dist/
+release/
+out/
+.orchestration/
+backend-home/
+.env
+.env.*
+!.env.example
+.codex/
+.netrc
+/.npmrc
+*.pem
+*.key
+*.p8
+*.p12
+*.pfx
+auth.json
+cookies.json
+providers.json
+provider-models.json
+configuration-transaction.json
+*.bak
+*.tmp
+*.corrupt-*
+__pycache__/
+*.pyc
+*.tsbuildinfo
+# Local handoff/state documents are not release source.
+/AGENTS.md
+/PROGRESS.md
+/BLOCKED.md
+/SUMMARY.md
+/2026-11-16/
+/NVIDIA Corporation/
+# Upstream inputs stay on disk for local builds; Git tracks only core source.
+/backend_official/
+/native/
+/raw_frontend/
+/frontend/public/original/
+/protocol_schema/
+/electron/resources/plugins/openai-curated/plugins/
+/electron/resources/plugins/openai-bundled/plugins/
+/electron/resources/plugins/openai-primary-runtime/plugins/
+/electron/resources/plugins/openai-curated/.agents/skills/
+# Keep this local experimental transform out of the source release.
+/frontend/src/original/providerUiTransforms.ts
+*.i64
+*.idb
+*.log
+*.log.*

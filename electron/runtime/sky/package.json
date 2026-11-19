@@ -1,0 +1,7 @@
+{
+  "name": "@oai/sky",
+  "version": "0.1.0-local",
+  "private": true,
+  "type": "module",
+  "exports": "./index.mjs"
+}
